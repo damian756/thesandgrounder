@@ -4,6 +4,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import SignupForm from "@/components/SignupForm";
+import ImageLightbox from "@/components/ImageLightbox";
 
 export const metadata: Metadata = {
   title: "This town deserves better | The Sandgrounder",
@@ -19,6 +20,14 @@ export const metadata: Metadata = {
       "Why The Sandgrounder exists, what it is going to do, and who it is for.",
     url: "https://www.thesandgrounder.com/opinion/this-town-deserves-better",
     type: "article",
+    images: [
+      {
+        url: "https://www.thesandgrounder.com/images/lord-street-open-for-business.png",
+        width: 1080,
+        height: 720,
+        alt: "Lord Street Southport under its Victorian glass canopy, every shop unit showing a TO LET sign, a single pigeon on the empty street",
+      },
+    ],
   },
 };
 
@@ -91,11 +100,21 @@ export default function FoundingArticle() {
         </h1>
 
         <p
-          className="text-[15px] text-[#7a7069] italic mb-10"
+          className="text-[15px] text-[#7a7069] italic mb-8"
           style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
         >
           Why The Sandgrounder exists, what it is going to do, and who it is for.
         </p>
+
+        <div className="mb-10">
+          <ImageLightbox
+            src="/images/lord-street-open-for-business.png"
+            alt="Lord Street Southport under its Victorian glass canopy, every shop unit showing a TO LET sign, a single pigeon on the empty street, one unit reading Grand Opening: Another Coffee Shop, and a billboard at the end reading Southport: Open For Business"
+            width={1080}
+            height={720}
+            priority
+          />
+        </div>
 
         <div
           className="space-y-5 text-[16px] text-[#2a2a2a] leading-relaxed"

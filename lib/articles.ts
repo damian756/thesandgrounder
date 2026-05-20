@@ -77,6 +77,9 @@ export const articles: Article[] = [
     author: "The Sandgrounder",
     tags: ["southport", "community"],
     featured: false,
+    image: "/images/lord-street-open-for-business.png",
+    imageAlt:
+      "Lord Street Southport under its Victorian glass canopy, every shop unit showing a TO LET sign, a single pigeon on the empty street, one unit reading Grand Opening: Another Coffee Shop, and a billboard at the end reading Southport: Open For Business",
   },
 ];
 
