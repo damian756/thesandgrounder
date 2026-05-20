@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Article, categoryMeta, formatDate, articleHref } from "@/lib/articles";
 
 type Props = {
@@ -11,7 +12,19 @@ export default function ArticleCard({ article, variant = "default" }: Props) {
 
   if (variant === "featured") {
     return (
-      <Link href={articleHref(article)} className="group block bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow p-8 sm:p-10">
+      <Link href={articleHref(article)} className="group block bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+        {article.image && (
+          <div className="w-full overflow-hidden">
+            <Image
+              src={article.image}
+              alt={article.imageAlt ?? article.title}
+              width={900}
+              height={500}
+              className="w-full object-cover transition-transform duration-300 group-hover:scale-[1.01]"
+            />
+          </div>
+        )}
+        <div className={`${article.image ? "p-8 sm:p-10" : "p-8 sm:p-10"}`}>
         <div className="flex items-center gap-3 mb-5">
           <span
             className="text-[10px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full"
@@ -48,12 +61,25 @@ export default function ArticleCard({ article, variant = "default" }: Props) {
         >
           Read more
         </span>
+        </div>
       </Link>
     );
   }
 
   return (
-    <Link href={articleHref(article)} className="group block bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow p-6">
+    <Link href={articleHref(article)} className="group block bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+      {article.image && (
+        <div className="w-full overflow-hidden">
+          <Image
+            src={article.image}
+            alt={article.imageAlt ?? article.title}
+            width={600}
+            height={340}
+            className="w-full object-cover transition-transform duration-300 group-hover:scale-[1.01]"
+          />
+        </div>
+      )}
+      <div className="p-6">
       <div className="flex items-center gap-2 mb-3">
         <span
           className="text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full"
@@ -84,6 +110,7 @@ export default function ArticleCard({ article, variant = "default" }: Props) {
       >
         {article.excerpt}
       </p>
+      </div>
     </Link>
   );
 }

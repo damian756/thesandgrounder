@@ -9,6 +9,8 @@ export type Article = {
   author: string;
   tags: string[];
   featured?: boolean;
+  image?: string;
+  imageAlt?: string;
 };
 
 export const categoryMeta: Record<
@@ -47,6 +49,9 @@ export const articles: Article[] = [
     author: "The Sandgrounder",
     tags: ["mlec", "sefton-council", "southport", "regeneration"],
     featured: true,
+    image: "/images/mlec-predictions.png",
+    imageAlt:
+      "Council officials celebrating in front of the unfinished MLEC construction site, banner reading Celebrating Our Success, someone holding a falling vacancy rate graph",
   },
   {
     slug: "this-town-deserves-better",

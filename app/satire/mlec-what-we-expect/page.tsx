@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import SignupForm from "@/components/SignupForm";
+import ImageLightbox from "@/components/ImageLightbox";
 
 export const metadata: Metadata = {
   title: "The MLEC: what we expect | The Sandgrounder",
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.thesandgrounder.com/images/mlec-predictions.jpg",
-        width: 1024,
-        height: 683,
-        alt: "Sefton Council officials celebrating their success in front of the unfinished MLEC construction site, holding a banner that reads Celebrating Our Success while someone displays a graph of rising vacancy rates",
+        url: "https://www.thesandgrounder.com/images/mlec-predictions.png",
+        width: 1080,
+        height: 720,
+        alt: "Council officials celebrating in front of the unfinished MLEC construction site, banner reading Celebrating Our Success, someone holding a falling vacancy rate graph",
       },
     ],
   },
@@ -37,7 +37,7 @@ const articleSchema = {
   description:
     "The Marine Lake Events Centre will open. At some point. Here are our predictions for when it does.",
   datePublished: "2026-05-20",
-  image: "https://www.thesandgrounder.com/images/mlec-predictions.jpg",
+  image: "https://www.thesandgrounder.com/images/mlec-predictions.png",
   author: {
     "@type": "Organization",
     name: "The Sandgrounder",
@@ -160,21 +160,15 @@ export default function MlecPredictionsPage() {
         </p>
 
         {/* Illustration */}
-        <div className="mb-10 rounded-2xl overflow-hidden">
-          <Image
-            src="/images/mlec-predictions.jpg"
-            alt="Sefton Council officials celebrating their success in front of the unfinished MLEC construction site, holding a banner that reads Celebrating Our Success while someone displays a graph of rising vacancy rates"
-            width={1024}
-            height={683}
-            className="w-full"
+        <div className="mb-10">
+          <ImageLightbox
+            src="/images/mlec-predictions.png"
+            alt="Council officials celebrating in front of the unfinished MLEC construction site, banner reading Celebrating Our Success, someone holding a falling vacancy rate graph"
+            width={1080}
+            height={720}
+            caption="An artist's impression of the project status update. The vacancy rate graph is accurate."
             priority
           />
-          <p
-            className="text-[11px] text-[#9a9088] mt-2 px-1"
-            style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}
-          >
-            An artist&apos;s impression of the project status update. The vacancy rate graph is accurate.
-          </p>
         </div>
 
         {/* Intro */}
