@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Mail, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import SignupForm from "@/components/SignupForm";
 
 export const metadata: Metadata = {
   title: "The Sandgrounder | Coming Soon",
@@ -64,26 +65,7 @@ export default function Home() {
           <p className="text-[16px] text-[#d4c9b0] leading-relaxed mb-6">
             The first issue is coming. Sign up and you will be the first to read it.
           </p>
-          <form
-            action="https://formspree.io/f/placeholder"
-            method="POST"
-            className="flex flex-col sm:flex-row gap-3"
-          >
-            <input
-              type="email"
-              name="email"
-              placeholder="your@email.com"
-              required
-              className="sans flex-1 px-4 py-3 bg-[#2a2a2a] border border-[#3a3a3a] text-white placeholder-[#6a6a6a] text-[14px] focus:outline-none focus:border-[#c9a84c] transition-colors"
-            />
-            <button
-              type="submit"
-              className="sans inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#8b1a1a] text-white text-[13px] font-bold uppercase tracking-widest hover:bg-[#a02020] transition-colors"
-            >
-              <Mail size={13} />
-              Notify me
-            </button>
-          </form>
+          <SignupForm />
           <p className="sans text-[11px] text-[#5a5a5a] mt-3">
             No spam. One email when we launch. That is all.
           </p>
