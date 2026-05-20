@@ -55,11 +55,9 @@ export default function Footer() {
               <div className="flex flex-col gap-2">
                 {[
                   { href: "/about", label: "About" },
+                  { href: "/contact", label: "Contact" },
                   { href: "https://www.siba.digital", label: "SIBA Digital" },
-                  {
-                    href: "https://www.southportguide.co.uk",
-                    label: "Southport Guide",
-                  },
+                  { href: "https://www.southportguide.co.uk", label: "Southport Guide" },
                 ].map((l) => (
                   <Link
                     key={l.href}
@@ -74,7 +72,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="border-t border-[#e0d8cc] pt-6">
+        <div className="border-t border-[#e0d8cc] pt-6 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <p
             className="text-[11px] text-[#9a9088]"
             style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}
@@ -82,6 +80,22 @@ export default function Footer() {
             The Sandgrounder is an independent publication. Not affiliated with Sefton Council, Southport BID, or any promotional body.
             All opinions are those of the authors. Satire is satire.
           </p>
+          <div className="flex gap-4 flex-shrink-0">
+            {[
+              { href: "/privacy", label: "Privacy" },
+              { href: "/legal", label: "Legal" },
+              { href: "/contact", label: "Contact" },
+            ].map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="text-[11px] text-[#9a9088] hover:text-[#1c1c1c] transition-colors underline underline-offset-2"
+                style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}
+              >
+                {l.label}
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
       <div className="w-full h-1 bg-[#9b2020]" />
