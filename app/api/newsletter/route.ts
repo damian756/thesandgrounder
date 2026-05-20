@@ -1,5 +1,14 @@
 import { NextResponse } from "next/server";
 
+async function getAudienceId(apiKey: string): Promise<string | null> {
+  const res = await fetch("https://api.resend.com/audiences", {
+    headers: { Authorization: `Bearer ${apiKey}` },
+  });
+  if (!res.ok) return null;
+  const data = await res.json();
+  return data?.data?.[0]?.id ?? null;
+}
+
 export async function POST(req: Request) {
   try {
     const { email } = await req.json();
@@ -9,10 +18,14 @@ export async function POST(req: Request) {
     }
 
     const apiKey = process.env.RESEND_API_KEY;
-    const audienceId = process.env.RESEND_AUDIENCE_ID;
+    if (!apiKey) {
+      console.error("RESEND_API_KEY not configured");
+      return NextResponse.json({ error: "Server configuration error" }, { status: 500 });
+    }
 
-    if (!apiKey || !audienceId) {
-      console.error("RESEND_API_KEY or RESEND_AUDIENCE_ID not configured");
+    const audienceId = await getAudienceId(apiKey);
+    if (!audienceId) {
+      console.error("No Resend audience found");
       return NextResponse.json({ error: "Server configuration error" }, { status: 500 });
     }
 
