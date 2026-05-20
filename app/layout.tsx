@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Lato } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -46,6 +47,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${lato.variable}`}>
       <body>{children}</body>
+      <Script
+        src="https://analytics.ahrefs.com/analytics.js"
+        data-key="4z3UstkkiRxZizxSKbAccg"
+        strategy="afterInteractive"
+      />
     </html>
   );
 }
