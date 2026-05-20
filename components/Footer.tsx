@@ -81,9 +81,10 @@ export default function Footer() {
             <div className="flex flex-col gap-2">
               {[
                 { href: "/about", label: "About" },
-                { href: "/contact", label: "Contact" },
-                { href: "https://www.siba.digital", label: "SIBA Digital" },
-                { href: "https://www.southportguide.co.uk", label: "Southport Guide" },
+                  { href: "/contact", label: "Contact" },
+                  { href: "https://www.churchtownmedia.co.uk", label: "Churchtown Media" },
+                  { href: "https://www.siba.digital", label: "SIBA Digital" },
+                  { href: "https://www.southportguide.co.uk", label: "Southport Guide" },
               ].map((l) => (
                 <Link
                   key={l.href}
