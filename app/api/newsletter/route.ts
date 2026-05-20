@@ -24,7 +24,11 @@ export async function POST(req: Request) {
           Authorization: `Bearer ${apiKey}`,
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email, unsubscribed: false }),
+        body: JSON.stringify({
+          email,
+          unsubscribed: false,
+          data: { source: "sandgrounder" },
+        }),
       }
     );
 
