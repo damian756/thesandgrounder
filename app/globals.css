@@ -1,24 +1,22 @@
 @import "tailwindcss";
 
+@theme inline {
+  --font-playfair: var(--font-playfair);
+  --font-lato: var(--font-lato);
+}
+
 :root {
-  --sand: #f5f0e8;
-  --ink: #1a1a1a;
-  --rule: #d4c9b0;
-  --muted: #7a6f5e;
-  --accent: #8b1a1a;
+  --sand: #f4efe6;
+  --ink: #1c1c1c;
+  --muted: #7a7069;
+  --accent: #9b2020;
+  --gold: #b8860b;
+  --card: #ffffff;
 }
 
 body {
   background: var(--sand);
   color: var(--ink);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-lato), Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: Georgia, "Times New Roman", serif;
-}
-
-.sans {
-  font-family: Arial, Helvetica, sans-serif;
 }
