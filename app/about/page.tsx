@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import SignupForm from "@/components/SignupForm";
+import ImageLightbox from "@/components/ImageLightbox";
 
 export const metadata: Metadata = {
   title: "About | The Sandgrounder",
@@ -30,6 +31,16 @@ export default function AboutPage() {
           >
             About
           </h1>
+        </div>
+
+        <div className="mb-10">
+          <ImageLightbox
+            src="/images/about-desk.png"
+            alt="A desk viewed from above showing The Sandgrounder newspaper, a Companies House printout, a supplier spend spreadsheet with figures circled in red, an FOI folder, a pen, and a cold cup of tea"
+            width={1080}
+            height={720}
+            priority
+          />
         </div>
 
         <div className="space-y-5 text-[16px] text-[#2a2a2a] leading-relaxed mb-12" style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}>
