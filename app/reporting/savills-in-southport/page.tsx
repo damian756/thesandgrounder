@@ -4,6 +4,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import SignupForm from "@/components/SignupForm";
+import ImageLightbox from "@/components/ImageLightbox";
 
 export const metadata: Metadata = {
   title: "The Savills map | The Sandgrounder",
@@ -18,6 +19,14 @@ export const metadata: Metadata = {
       "What one property company manages, advises, and accredits in Southport. And what levy payers were never told.",
     url: "https://www.thesandgrounder.com/reporting/savills-in-southport",
     type: "article",
+    images: [
+      {
+        url: "https://www.thesandgrounder.com/images/savills-map.png",
+        width: 1080,
+        height: 720,
+        alt: "A large Savills-labelled pig reclines on public funds money bags while smaller piglets labelled BID Board, Sefton Council, Regeneration Scheme 1 and 515,000 Visitors feed from it",
+      },
+    ],
   },
 };
 
@@ -109,11 +118,21 @@ export default function SavillsInSouthportPage() {
         </h1>
 
         <p
-          className="text-[17px] text-[#7a7069] italic mb-10"
+          className="text-[17px] text-[#7a7069] italic mb-8"
           style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
         >
           What one property company manages, advises, and accredits in Southport. And what levy payers were never told.
         </p>
+
+        <div className="mb-10">
+          <ImageLightbox
+            src="/images/savills-map.png"
+            alt="A large Savills-labelled pig reclines on public funds money bags while smaller piglets labelled BID Board, Sefton Council, Regeneration Scheme 1 and 515,000 Visitors feed from it. Documents on the ground read Supplier Spend, FOI Outstanding, British BIDs Accreditation, Companies House. Behind them: MLEC Opening Soon and Lord Street To Let signs."
+            width={1080}
+            height={720}
+            priority
+          />
+        </div>
 
         <div
           className="space-y-5 text-[16px] text-[#2a2a2a] leading-relaxed"

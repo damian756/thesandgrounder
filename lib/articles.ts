@@ -49,6 +49,9 @@ export const articles: Article[] = [
     author: "The Sandgrounder",
     tags: ["savills", "southport", "bid", "mlec", "sefton-council", "regeneration"],
     featured: false,
+    image: "/images/savills-map.png",
+    imageAlt:
+      "A large Savills-labelled pig reclines on public funds money bags while smaller piglets labelled BID Board, Sefton Council, Regeneration Scheme 1 and 515,000 Visitors feed from it. Documents on the ground read Supplier Spend, FOI Outstanding, British BIDs Accreditation, Companies House. Behind them: MLEC Opening Soon and Lord Street To Let signs.",
   },
   {
     slug: "mlec-year-one",
