@@ -104,7 +104,7 @@ export const articles: Article[] = [
     publishedAt: "2026-05-20",
     author: "The Sandgrounder",
     tags: ["mlec", "sefton-council", "southport", "regeneration"],
-    featured: true,
+    featured: false,
     image: "/images/mlec-predictions.png",
     imageAlt:
       "Council officials celebrating in front of the unfinished MLEC construction site, banner reading Celebrating Our Success, someone holding a falling vacancy rate graph",
