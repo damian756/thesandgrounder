@@ -40,6 +40,20 @@ export const categoryMeta: Record<
 
 export const articles: Article[] = [
   {
+    slug: "southport-regeneration-glossary",
+    category: "satire",
+    title: "The Southport Regeneration Glossary",
+    excerpt:
+      "A public service. Twenty terms in common use across Southport's regeneration ecosystem, with accurate definitions. None of these definitions appear in the documents where the terms are used.",
+    publishedAt: "2026-05-20",
+    author: "The Sandgrounder",
+    tags: ["southport", "sefton-council", "bid", "regeneration", "mlec", "foi"],
+    featured: false,
+    image: "/images/southport-regeneration-glossary.png",
+    imageAlt:
+      "A pig bureaucrat in a pinstripe suit writes in a large dictionary titled Official Definitions: Southport Regeneration Edition while a second pig holds a Regeneration Milestone Award 2024 trophy. Three filing cabinets read FOI Pending, FOI Declined, FOI Commercially Sensitive. The bin contains crumpled Vacancy Rate and Accountability papers.",
+  },
+  {
     slug: "the-local-news-that-isnt",
     category: "reporting",
     title: "The local news that isn't",
