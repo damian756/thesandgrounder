@@ -40,6 +40,17 @@ export const categoryMeta: Record<
 
 export const articles: Article[] = [
   {
+    slug: "savills-in-southport",
+    category: "reporting",
+    title: "The Savills map",
+    excerpt:
+      "What one property company manages, advises, and accredits in Southport. And what levy payers were never told.",
+    publishedAt: "2026-05-20",
+    author: "The Sandgrounder",
+    tags: ["savills", "southport", "bid", "mlec", "sefton-council", "regeneration"],
+    featured: false,
+  },
+  {
     slug: "mlec-year-one",
     category: "opinion",
     title: "The MLEC, one year from now",
