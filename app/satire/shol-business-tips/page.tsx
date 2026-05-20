@@ -5,6 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import SignupForm from "@/components/SignupForm";
 import ImageLightbox from "@/components/ImageLightbox";
+import ShareButtons from "@/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "How to run a hospitality business: a guide from SHOL | The Sandgrounder",
@@ -27,6 +28,12 @@ export const metadata: Metadata = {
         alt: "Council pigs in chef hats run a chaotic kitchen under a Losses 1.945M Today's Special sign while a scrutiny committee pig reads a newspaper",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How to run a hospitality business: a guide from SHOL",
+    description: "Sefton Council has been running a hospitality company for four years. Losses stand at £1.945 million. Here is what they have learned.",
+    images: ["https://www.thesandgrounder.com/images/shol-business-tips.png"],
   },
 };
 
@@ -226,6 +233,12 @@ export default function SholBusinessTipsPage() {
             The Sandgrounder wishes SHOL every success in year five. We will be checking the accounts.
           </p>
         </div>
+
+        <ShareButtons
+          path="/satire/shol-business-tips"
+          title="How to run a hospitality business: a guide from SHOL"
+          excerpt="Sefton Council has been running a hospitality company for four years. Losses stand at £1.945 million. Here is what they have learned."
+        />
 
         {/* Disclaimer */}
         <div

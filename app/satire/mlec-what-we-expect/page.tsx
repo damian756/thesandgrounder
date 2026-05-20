@@ -5,6 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import SignupForm from "@/components/SignupForm";
 import ImageLightbox from "@/components/ImageLightbox";
+import ShareButtons from "@/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "The MLEC: what we expect | The Sandgrounder",
@@ -27,6 +28,12 @@ export const metadata: Metadata = {
         alt: "Council officials celebrating in front of the unfinished MLEC construction site, banner reading Celebrating Our Success, someone holding a falling vacancy rate graph",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The MLEC: what we expect",
+    description: "The Marine Lake Events Centre will open. At some point. Here are our predictions for when it does.",
+    images: ["https://www.thesandgrounder.com/images/mlec-predictions.png"],
   },
 };
 
@@ -241,6 +248,12 @@ export default function MlecPredictionsPage() {
           This is satire. The predictions are the authors&apos; own. The facts cited (£73m public funding, £13m pre-contract spend, 515,000 visitor projection, VINCI appointment, Savills payment history) are drawn from public records and outstanding FOI requests documented at{" "}
           <a href="https://www.siba.digital" className="text-[#8a6800] underline underline-offset-2">siba.digital</a>.
         </div>
+
+        <ShareButtons
+          path="/satire/mlec-what-we-expect"
+          title="The MLEC: what we expect"
+          excerpt="The Marine Lake Events Centre will open. At some point. Here are our predictions for when it does."
+        />
 
         {/* Subscribe */}
         <div className="bg-[#1c1c1c] rounded-2xl p-8 mb-8">

@@ -5,6 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import SignupForm from "@/components/SignupForm";
 import ImageLightbox from "@/components/ImageLightbox";
+import ShareButtons from "@/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "The Savills map | The Sandgrounder",
@@ -28,6 +29,12 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Savills map",
+    description: "What one property company manages, advises, and accredits in Southport. And what levy payers were never told.",
+    images: ["https://www.thesandgrounder.com/images/savills-map.png"],
+  },
 };
 
 const articleSchema = {
@@ -37,6 +44,7 @@ const articleSchema = {
   description:
     "What one property company manages, advises, and accredits in Southport. And what levy payers were never told.",
   datePublished: "2026-05-20",
+  image: "https://www.thesandgrounder.com/images/savills-map.png",
   author: {
     "@type": "Organization",
     name: "The Sandgrounder",
@@ -352,7 +360,13 @@ export default function SavillsInSouthportPage() {
           <p>Full investigation documentation: <a href="https://www.siba.digital" className="text-[#1a3a5c] underline underline-offset-2">siba.digital</a></p>
         </div>
 
-        <div className="mt-10 bg-[#1c1c1c] rounded-2xl p-8">
+        <ShareButtons
+          path="/reporting/savills-in-southport"
+          title="The Savills map"
+          excerpt="What one property company manages, advises, and accredits in Southport. And what levy payers were never told."
+        />
+
+        <div className="mt-2 bg-[#1c1c1c] rounded-2xl p-8">
           <p
             className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#b8860b] mb-3"
             style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}

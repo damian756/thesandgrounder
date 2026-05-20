@@ -5,6 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import SignupForm from "@/components/SignupForm";
 import ImageLightbox from "@/components/ImageLightbox";
+import ShareButtons from "@/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "The MLEC, one year from now | The Sandgrounder",
@@ -27,6 +28,12 @@ export const metadata: Metadata = {
         alt: "Cartoon of a pig serving Mikhail Ale at the MLEC grand opening while the BID Annual Gala fills the seats",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The MLEC, one year from now",
+    description: "Southport has a pattern. The same names, the same undisclosed relationships, the same media contractor covering it all warmly. The Marine Lake Events Centre will not be different.",
+    images: ["https://www.thesandgrounder.com/images/mlec-year-one.png"],
   },
 };
 
@@ -238,7 +245,13 @@ export default function MlecYearOnePage() {
           Predictions are the author&apos;s own. The MLEC operator agreement and catering concession terms have not been published.
         </div>
 
-        <div className="mt-10 bg-[#1c1c1c] rounded-2xl p-8">
+        <ShareButtons
+          path="/opinion/mlec-year-one"
+          title="The MLEC, one year from now"
+          excerpt="Southport has a pattern. The same names, the same undisclosed relationships, the same media contractor covering it all warmly."
+        />
+
+        <div className="mt-2 bg-[#1c1c1c] rounded-2xl p-8">
           <p
             className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#b8860b] mb-3"
             style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}

@@ -5,6 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import SignupForm from "@/components/SignupForm";
 import ImageLightbox from "@/components/ImageLightbox";
+import ShareButtons from "@/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "This town deserves better | The Sandgrounder",
@@ -29,6 +30,12 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "This town deserves better",
+    description: "Why The Sandgrounder exists, what it is going to do, and who it is for.",
+    images: ["https://www.thesandgrounder.com/images/lord-street-open-for-business.png"],
+  },
 };
 
 const articleSchema = {
@@ -38,6 +45,7 @@ const articleSchema = {
   description:
     "Why The Sandgrounder exists, what it is going to do, and who it is for.",
   datePublished: "2026-05-20",
+  image: "https://www.thesandgrounder.com/images/lord-street-open-for-business.png",
   author: {
     "@type": "Organization",
     name: "The Sandgrounder",
@@ -154,7 +162,13 @@ export default function FoundingArticle() {
           </p>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-[#e8e0d4]">
+        <ShareButtons
+          path="/opinion/this-town-deserves-better"
+          title="This town deserves better"
+          excerpt="Why The Sandgrounder exists, what it is going to do, and who it is for."
+        />
+
+        <div className="mt-4 pt-0">
           <div className="bg-[#1c1c1c] rounded-2xl p-8">
             <p
               className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#b8860b] mb-3"

@@ -5,6 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import SignupForm from "@/components/SignupForm";
 import ImageLightbox from "@/components/ImageLightbox";
+import ShareButtons from "@/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "The local news that isn't | The Sandgrounder",
@@ -28,6 +29,12 @@ export const metadata: Metadata = {
         alt: "A pig newsreader with BID Contractor, Council Supplier and Mikhail Partner badges reads from a Press Release script while the bin overflows with crumpled BID Accounts and FOI Response papers",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The local news that isn't",
+    description: "Stand Up For Southport is paid by the BID, the council, and Mikhail Hotels. None of this is disclosed to its readers.",
+    images: ["https://www.thesandgrounder.com/images/local-news-that-isnt.png"],
   },
 };
 
@@ -238,7 +245,13 @@ export default function LocalNewsThatIsntPage() {
           <p>Full investigation documentation: <a href="https://www.siba.digital" className="text-[#1a3a5c] underline underline-offset-2">siba.digital</a></p>
         </div>
 
-        <div className="mt-10 bg-[#1c1c1c] rounded-2xl p-8">
+        <ShareButtons
+          path="/reporting/the-local-news-that-isnt"
+          title="The local news that isn't"
+          excerpt="Stand Up For Southport is paid by the BID, the council, and Mikhail Hotels. None of this is disclosed to its readers."
+        />
+
+        <div className="mt-2 bg-[#1c1c1c] rounded-2xl p-8">
           <p
             className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#b8860b] mb-3"
             style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}
