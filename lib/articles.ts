@@ -82,6 +82,20 @@ export const articles: Article[] = [
       "A pig bartender serves Mikhail Ale at the MLEC grand opening while identical grey-suited men fill the seats for the BID Annual Gala. A reporter pig scribbles in a Stand Up For Southport notepad. A 515,000 Visitors Expected sign hangs on the wall. One pigeon sits in the otherwise empty back rows.",
   },
   {
+    slug: "shol-business-tips",
+    category: "satire",
+    title: "How to run a hospitality business: a guide from SHOL",
+    excerpt:
+      "Sefton Council has been running a hospitality company for four years. Losses stand at £1.945 million. Here is what they have learned.",
+    publishedAt: "2026-05-20",
+    author: "The Sandgrounder",
+    tags: ["shol", "sefton-council", "southport"],
+    featured: false,
+    image: "/images/shol-business-tips.png",
+    imageAlt:
+      "Council pigs in chef hats run a chaotic kitchen under a Losses 1.945M Today's Special sign while a scrutiny committee pig reads a newspaper undisturbed in the corner",
+  },
+  {
     slug: "mlec-what-we-expect",
     category: "satire",
     title: "The MLEC: what we expect",
