@@ -40,6 +40,20 @@ export const categoryMeta: Record<
 
 export const articles: Article[] = [
   {
+    slug: "mlec-year-one",
+    category: "opinion",
+    title: "The MLEC, one year from now",
+    excerpt:
+      "Southport has a pattern. The same names, the same undisclosed relationships, the same media contractor covering it all warmly. The Marine Lake Events Centre will not be different.",
+    publishedAt: "2026-05-20",
+    author: "The Sandgrounder",
+    tags: ["mlec", "sefton-council", "southport", "regeneration", "bid"],
+    featured: true,
+    image: "/images/mlec-year-one.png",
+    imageAlt:
+      "A pig bartender serves Mikhail Ale at the MLEC grand opening while identical grey-suited men fill the seats for the BID Annual Gala. A reporter pig scribbles in a Stand Up For Southport notepad. A 515,000 Visitors Expected sign hangs on the wall. One pigeon sits in the otherwise empty back rows.",
+  },
+  {
     slug: "mlec-what-we-expect",
     category: "satire",
     title: "The MLEC: what we expect",
