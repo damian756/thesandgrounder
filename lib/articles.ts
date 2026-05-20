@@ -76,7 +76,7 @@ export const articles: Article[] = [
     publishedAt: "2026-05-20",
     author: "The Sandgrounder",
     tags: ["mlec", "sefton-council", "southport", "regeneration", "bid"],
-    featured: true,
+    featured: false,
     image: "/images/mlec-year-one.png",
     imageAlt:
       "A pig bartender serves Mikhail Ale at the MLEC grand opening while identical grey-suited men fill the seats for the BID Annual Gala. A reporter pig scribbles in a Stand Up For Southport notepad. A 515,000 Visitors Expected sign hangs on the wall. One pigeon sits in the otherwise empty back rows.",
@@ -90,7 +90,7 @@ export const articles: Article[] = [
     publishedAt: "2026-05-20",
     author: "The Sandgrounder",
     tags: ["shol", "sefton-council", "southport"],
-    featured: false,
+    featured: true,
     image: "/images/shol-business-tips.png",
     imageAlt:
       "Council pigs in chef hats run a chaotic kitchen under a Losses 1.945M Today's Special sign while a scrutiny committee pig reads a newspaper undisturbed in the corner",
