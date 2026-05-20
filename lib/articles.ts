@@ -38,6 +38,17 @@ export const categoryMeta: Record<
 
 export const articles: Article[] = [
   {
+    slug: "mlec-what-we-expect",
+    category: "satire",
+    title: "The MLEC: what we expect",
+    excerpt:
+      "The Marine Lake Events Centre will open. At some point. Here are our predictions for when it does.",
+    publishedAt: "2026-05-20",
+    author: "The Sandgrounder",
+    tags: ["mlec", "sefton-council", "southport", "regeneration"],
+    featured: true,
+  },
+  {
     slug: "this-town-deserves-better",
     category: "opinion",
     title: "This town deserves better",
@@ -46,7 +57,7 @@ export const articles: Article[] = [
     publishedAt: "2026-05-20",
     author: "The Sandgrounder",
     tags: ["southport", "community"],
-    featured: true,
+    featured: false,
   },
 ];
 
