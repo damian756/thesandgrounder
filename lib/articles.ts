@@ -40,6 +40,20 @@ export const categoryMeta: Record<
 
 export const articles: Article[] = [
   {
+    slug: "the-local-news-that-isnt",
+    category: "reporting",
+    title: "The local news that isn't",
+    excerpt:
+      "Stand Up For Southport is the most-read local news source in Southport. It is paid by the BID, the council, and Mikhail Hotels. None of this is disclosed to its readers.",
+    publishedAt: "2026-05-20",
+    author: "The Sandgrounder",
+    tags: ["stand-up-for-southport", "southport", "bid", "mikhail", "local-press"],
+    featured: false,
+    image: "/images/local-news-that-isnt.png",
+    imageAlt:
+      "A pig newsreader sits at a local news desk wearing badges reading BID Contractor, Council Supplier, Mikhail Partner. A stack of Huge Success For Southport scripts sits on the desk. The bin overflows with crumpled BID Accounts, Vacancy Rate and FOI Response papers. The green screen behind shows the real Lord Street with To Let signs.",
+  },
+  {
     slug: "savills-in-southport",
     category: "reporting",
     title: "The Savills map",
