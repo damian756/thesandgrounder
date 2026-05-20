@@ -48,10 +48,7 @@ export default function LegalPage() {
 
         <Section title="Publisher">
           <p>
-            The Sandgrounder is published by Churchtown Media. For editorial enquiries or legal correspondence, contact us at{" "}
-            <a href="mailto:contact@thesandgrounder.com" className="text-[#9b2020] underline underline-offset-2">
-              contact@thesandgrounder.com
-            </a>.
+            The Sandgrounder is published by Churchtown Media.             For editorial enquiries or legal correspondence, use our <a href="/contact" className="text-[#9b2020] underline underline-offset-2">contact form</a>.
           </p>
         </Section>
 
@@ -82,10 +79,7 @@ export default function LegalPage() {
             Before publishing any piece that makes factual claims about named individuals or organisations, The Sandgrounder sends a right-of-reply letter to those named, providing a reasonable opportunity to respond. Responses received before publication are incorporated into the piece. Responses received after publication are published as addenda.
           </p>
           <p>
-            If you have received a right-of-reply letter or wish to respond to a published piece, contact us at{" "}
-            <a href="mailto:contact@thesandgrounder.com" className="text-[#9b2020] underline underline-offset-2">
-              contact@thesandgrounder.com
-            </a>.
+            If you have received a right-of-reply letter or wish to respond to a published piece, use our <a href="/contact" className="text-[#9b2020] underline underline-offset-2">contact form</a>.
           </p>
         </Section>
 

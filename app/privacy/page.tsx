@@ -48,10 +48,7 @@ export default function PrivacyPage() {
 
         <Section title="Who we are">
           <p>
-            The Sandgrounder is an independent publication covering Southport. It is operated by Churchtown Media. For data enquiries, contact us at{" "}
-            <a href="mailto:contact@thesandgrounder.com" className="text-[#9b2020] underline underline-offset-2">
-              contact@thesandgrounder.com
-            </a>.
+            The Sandgrounder is an independent publication covering Southport. It is operated by Churchtown Media.           For data enquiries, use our <a href="/contact" className="text-[#9b2020] underline underline-offset-2">contact form</a>.
           </p>
         </Section>
 
@@ -102,10 +99,7 @@ export default function PrivacyPage() {
 
         <Section title="Your rights">
           <p>
-            Under UK GDPR, you have the right to access the personal data we hold about you, request correction, request deletion, and object to processing. To exercise any of these rights, email us at{" "}
-            <a href="mailto:contact@thesandgrounder.com" className="text-[#9b2020] underline underline-offset-2">
-              contact@thesandgrounder.com
-            </a>. We will respond within 30 days.
+            Under UK GDPR, you have the right to access the personal data we hold about you, request correction, request deletion, and object to processing.             To exercise any of these rights, use our <a href="/contact" className="text-[#9b2020] underline underline-offset-2">contact form</a>. We will respond within 30 days.
           </p>
         </Section>
 

@@ -80,15 +80,14 @@ export default function ContactPage() {
                 className="text-[10px] font-bold uppercase tracking-[0.18em] text-[#9a9088] mb-2"
                 style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}
               >
-                Email directly
+                Response times
               </p>
-              <a
-                href="mailto:contact@thesandgrounder.com"
-                className="text-[13px] text-[#9b2020] underline underline-offset-2"
+              <p
+                className="text-[13px] text-[#4a4540] leading-relaxed"
                 style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}
               >
-                contact@thesandgrounder.com
-              </a>
+                We read everything. We will reply where a response is needed.
+              </p>
             </div>
           </div>
         </div>
