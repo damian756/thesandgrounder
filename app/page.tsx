@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   const featured = getFeaturedArticle();
-  const latest = getLatestArticles(6).filter((a) => !a.featured);
+  const latest = getLatestArticles(50).filter((a) => !a.featured).slice(0, 6);
 
   return (
     <>
