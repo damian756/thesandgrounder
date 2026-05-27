@@ -96,7 +96,7 @@ const tips: { n: number; heading: string; body: string }[] = [
   {
     n: 8,
     heading: "File your accounts on time. Nobody will read them.",
-    body: "SHOL's accounts are filed at Companies House and are public record. They show accumulated losses of £1.945 million. They show the shareholder loans. They show the trajectory. They have been available to any interested party for four years. No elected member has raised them publicly in council. No local journalist has reported on them. The one outlet that might have — Stand Up For Southport, whose proprietor is paid by the council — has not covered SHOL's financial record. Filing your accounts is a legal requirement, not a risk.",
+    body: "SHOL's accounts are filed at Companies House and are public record. They show accumulated losses of £1.945 million. They show the shareholder loans. They show the trajectory. They have been available to any interested party for four years. No elected member has raised them publicly in council. Steve Ashcroft at Southport News was first to report the £138k council consultancy contract awarded to SHOL. The Echo and BBC followed without crediting him. The accumulated losses have not been covered elsewhere. The one outlet that might have covered them — Stand Up For Southport, whose proprietor is paid by the council — has not. Filing your accounts is a legal requirement, not a risk.",
   },
   {
     n: 9,

@@ -240,7 +240,7 @@ export default function LocalNewsThatIsntPage() {
           <p>Sefton Council published supplier spend data, 2020 to 2025.</p>
           <p>Southport BID Service Level Agreement (SP-07), disclosed via FOI, 61 pages. Clause 11.4: BID financial information FOI-exempt. Clause 20: all FOI requests to be transferred to council.</p>
           <p>Companies House: Mikhail Hotels and Leisure Holdings Ltd (10533763). Lord Street Car Park Ltd — directors: Geoffrey Wareham, Andrew Mikhail, Rob Ashcroft.</p>
-          <p>SHOL (Sefton Hospitality Operations Ltd, CH: 13451207) — accumulated losses £1.945m, confirmed from filed accounts.</p>
+          <p>SHOL (Sefton Hospitality Operations Ltd, CH: 13451207) — accumulated losses £1.945m, confirmed from filed accounts. The £138k council consultancy contract awarded to SHOL was first reported by Steve Ashcroft, Southport News (Facebook group, 44,000 members). Subsequently picked up by the Liverpool Echo and BBC without attribution.</p>
           <p>Right-of-reply letter sent to Andrew Brown/Stand Up For Southport, 20 May 2026. Response awaited.</p>
           <p>Full investigation documentation: <a href="https://www.siba.digital" className="text-[#1a3a5c] underline underline-offset-2">siba.digital</a></p>
         </div>
