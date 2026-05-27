@@ -57,6 +57,9 @@ export default function AboutPage() {
             The name comes from the Sandgrounder, the nickname for people born and bred in Southport. It is a term of belonging, not exclusion. Visitors are welcome. But this is written by people who have skin in the game.
           </p>
           <p>
+            The name has older roots too. William Conell, an early editor of the Southport Visiter, published under the pseudonym The Sandgrounder. He is buried in Duke Street Cemetery. The tradition of a Sandgrounder holding local institutions to account turns out to be longer than we knew.
+          </p>
+          <p>
             The Sandgrounder is produced by Churchtown Media, the same team behind{" "}
             <a href="https://www.siba.digital" className="text-[#9b2020] underline underline-offset-2 hover:no-underline">siba.digital</a>{" "}
             and{" "}
