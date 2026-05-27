@@ -19,4 +19,5 @@ body {
   color: var(--ink);
   font-family: var(--font-lato), Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }

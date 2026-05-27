@@ -41,7 +41,7 @@ export default function Home() {
             Southport &bull; Est. 2026
           </p>
           <h1
-            className="text-[58px] sm:text-[76px] text-[#1c1c1c] leading-[0.95] mb-5"
+            className="text-[44px] sm:text-[76px] text-[#1c1c1c] leading-[0.95] mb-5"
             style={{ fontFamily: "var(--font-playfair), Georgia, serif", fontWeight: 700 }}
           >
             The Sandgrounder
