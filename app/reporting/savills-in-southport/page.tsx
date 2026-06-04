@@ -332,16 +332,16 @@ export default function SavillsInSouthportPage() {
           </h2>
 
           <p>
-            A right-of-reply letter was sent to British BIDs on 19 May 2026 asking for comment on the ownership structure and its disclosure practices. A response is expected by 2 June 2026.
+            A right-of-reply letter was sent to British BIDs on 19 May 2026 asking for comment on the ownership structure and its disclosure practices. The deadline was 2 June 2026. No response was received.
           </p>
           <p>
-            A right-of-reply letter was sent to Southport BID CEO Rachel Fitzgerald on the same date. A response is expected by 2 June 2026.
+            A right-of-reply letter was sent to Southport BID CEO Rachel Fitzgerald on the same date. The deadline was 2 June 2026. No response was received.
           </p>
           <p>
-            FOI SP-17, requesting all Savills contracts and scopes of work from Sefton Council since 2020, is due for response on 17 June 2026.
+            FOI SP-17, requesting all Savills contracts and scopes of work from Sefton Council since 2020, is due for response on 17 June 2026. We will report what it says.
           </p>
           <p>
-            This piece will be updated when those responses are received. The facts reported above are drawn entirely from public records and will not change. What may change is whether the parties involved choose to explain them.
+            The facts reported above are drawn entirely from public records and will not change. Both parties had the opportunity to respond. Neither did.
           </p>
         </div>
 
