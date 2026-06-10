@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.thesandgrounder.com/images/local-news-that-isnt.png",
+        url: "https://www.thesandgrounder.com/images/local-news-that-isnt.webp",
         width: 1080,
         height: 720,
-        alt: "A pig newsreader with BID Contractor, Council Supplier and Mikhail Partner badges reads from a Press Release script while the bin overflows with crumpled BID Accounts and FOI Response papers",
+        alt: "An empty local news studio. Three labels on the newsdesk read: BID Contract, Council Payments, Hospitality Group Retainer. The ON AIR sign is lit. The chair is empty.",
       },
     ],
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "The local news that isn't",
     description: "Stand Up For Southport is paid by the BID, the council, and Mikhail Hotels. None of this is disclosed to its readers.",
-    images: ["https://www.thesandgrounder.com/images/local-news-that-isnt.png"],
+    images: ["https://www.thesandgrounder.com/images/local-news-that-isnt.webp"],
   },
 };
 
@@ -46,7 +46,7 @@ const articleSchema = {
     "Stand Up For Southport is the most-read local news source in Southport. It is paid by the BID, the council, and Mikhail Hotels. None of this is disclosed to its readers.",
   datePublished: "2026-05-20",
   image:
-    "https://www.thesandgrounder.com/images/local-news-that-isnt.png",
+    "https://www.thesandgrounder.com/images/local-news-that-isnt.webp",
   author: {
     "@type": "Organization",
     name: "The Sandgrounder",
@@ -117,8 +117,8 @@ export default function LocalNewsThatIsntPage() {
 
         <div className="mb-10">
           <ImageLightbox
-            src="/images/local-news-that-isnt.png"
-            alt="A pig newsreader sits at a local news desk wearing badges reading BID Contractor, Council Supplier, Mikhail Partner. A stack of Huge Success For Southport scripts sits on the desk. The bin overflows with crumpled BID Accounts, Vacancy Rate and FOI Response papers. The green screen behind shows the real Lord Street with To Let signs."
+            src="/images/local-news-that-isnt.webp"
+            alt="An empty local news studio. Three labels on the newsdesk read: BID Contract, Council Payments, Hospitality Group Retainer. The ON AIR sign is lit. The chair is empty."
             width={1080}
             height={720}
             priority

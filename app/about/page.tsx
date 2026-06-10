@@ -60,13 +60,26 @@ export default function AboutPage() {
             The name has older roots too. William Conell, an early editor of the Southport Visiter, published under the pseudonym The Sandgrounder. He is buried in Duke Street Cemetery. The tradition of a Sandgrounder holding local institutions to account turns out to be longer than we knew.
           </p>
           <p>
-            The Sandgrounder is produced by Churchtown Media, the same team behind{" "}
+            The Sandgrounder is owned and produced by Damian Roche, trading as Churchtown Media Ltd (Company No. 16960442), the same team behind{" "}
             <a href="https://www.siba.digital" className="text-[#9b2020] underline underline-offset-2 hover:no-underline">siba.digital</a>{" "}
             and{" "}
-            <a href="https://www.southportguide.co.uk" className="text-[#9b2020] underline underline-offset-2 hover:no-underline">southportguide.co.uk</a>.
+            <a href="https://www.southportguide.co.uk" className="text-[#9b2020] underline underline-offset-2 hover:no-underline">southportguide.co.uk</a>.{" "}
+            Full disclosure of commercial interests is published at{" "}
+            <a href="https://www.siba.digital/disclosure" className="text-[#9b2020] underline underline-offset-2 hover:no-underline">siba.digital/disclosure</a>.
           </p>
           <p>
             We are not affiliated with Sefton Council, Southport BID, Savills, or any other body with a financial interest in the town&apos;s perception. We have no advertising relationships to protect. We have no grant funding to lose.
+          </p>
+        </div>
+
+        <div className="border border-[#e0ddd8] rounded-xl p-6 mb-10 text-[14px] text-[#6b6b6b] leading-relaxed" style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}>
+          <p className="font-bold text-[#1c1c1c] mb-2 text-[13px] uppercase tracking-widest">Changes</p>
+          <p>
+            <strong>10 June 2026:</strong> Illustrations depicting identifiable individuals replaced with
+            institutional imagery. The Sandgrounder&apos;s satire targets structures and institutions, not named persons.
+            The article &ldquo;The local news that isn&apos;t&rdquo; now carries a studio illustration in place of the earlier
+            cartoon. Named ownership and company details added to this page.
+            Full interests declaration: <a href="https://www.siba.digital/disclosure" className="text-[#9b2020] underline underline-offset-2 hover:no-underline">siba.digital/disclosure</a>.
           </p>
         </div>
 
