@@ -114,6 +114,7 @@ export default function Footer() {
               { href: "/privacy", label: "Privacy" },
               { href: "/legal", label: "Legal" },
               { href: "/contact", label: "Contact" },
+              { href: "https://www.siba.digital/disclosure", label: "Disclosure" },
             ].map((l) => (
               <Link
                 key={l.href}
