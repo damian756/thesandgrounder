@@ -31,8 +31,8 @@ export const categoryMeta: Record<
     bg: "#fdf8e8",
   },
   reporting: {
-    label: "Reporting",
-    description: "Primary sources. Public records. No promotional copy.",
+    label: "From the Record",
+    description: "Primary sources. Public documents. Things people in public life would prefer were not documented at all.",
     color: "#1a3a5c",
     bg: "#eef3f8",
   },

@@ -78,7 +78,7 @@ export default function LocalNewsThatIsntPage() {
             style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}
           >
             <ArrowLeft size={12} />
-            Reporting
+            From the Record
           </Link>
         </div>
 
@@ -91,7 +91,7 @@ export default function LocalNewsThatIsntPage() {
               fontFamily: "var(--font-lato), Arial, sans-serif",
             }}
           >
-            Reporting
+            From the Record
           </span>
           <span
             className="text-[12px] text-[#9a9088]"
@@ -273,7 +273,7 @@ export default function LocalNewsThatIsntPage() {
             className="inline-flex items-center gap-2 rounded-xl border border-[#e0d8cc] bg-white px-4 py-2.5 text-[12px] font-bold text-[#1c1c1c] hover:shadow-md transition-shadow"
             style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}
           >
-            All reporting <ArrowRight size={11} />
+            All From the Record <ArrowRight size={11} />
           </Link>
           <Link
             href="/reporting/savills-in-southport"

@@ -5,9 +5,9 @@ import ArticleCard from "@/components/ArticleCard";
 import { getArticlesByCategory } from "@/lib/articles";
 
 export const metadata: Metadata = {
-  title: "Reporting | The Sandgrounder",
+  title: "From the Record | The Sandgrounder",
   description:
-    "Reporting from The Sandgrounder. Primary sources. Public records. No promotional copy.",
+    "From the Record. Primary sources, public documents, and things people in public life would prefer were not documented at all.",
   alternates: { canonical: "https://www.thesandgrounder.com/reporting" },
 };
 
@@ -30,13 +30,13 @@ export default function ReportingPage() {
             className="text-[40px] sm:text-[52px] text-[#1c1c1c] leading-[1.05] mb-3"
             style={{ fontFamily: "var(--font-playfair), Georgia, serif", fontWeight: 700 }}
           >
-            Reporting
+            From the Record
           </h1>
           <p
             className="text-[15px] text-[#7a7069]"
             style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}
           >
-            Primary sources. Public records. No promotional copy.
+            Primary sources. Public documents. Things people in public life would prefer were not documented at all.
           </p>
         </div>
 

@@ -55,7 +55,7 @@ export default function Footer() {
               {[
                 { href: "/opinion", label: "Opinion" },
                 { href: "/satire", label: "Satire" },
-                { href: "/reporting", label: "Reporting" },
+                { href: "/reporting", label: "From the Record" },
                 { href: "/archive", label: "Archive" },
               ].map((l) => (
                 <Link

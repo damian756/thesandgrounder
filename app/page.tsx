@@ -125,9 +125,9 @@ export default function Home() {
               text: "Because some things are best said with a cartoon of a pig.",
             },
             {
-              label: "Reporting",
+              label: "From the Record",
               href: "/reporting",
-              text: "Primary sources. Public records. No promotional copy.",
+              text: "Primary sources. Public documents. Things people in public life would prefer were not documented at all.",
             },
           ].map((item) => (
             <a

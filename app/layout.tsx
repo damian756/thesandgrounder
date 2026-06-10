@@ -19,7 +19,7 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: "The Sandgrounder",
   description:
-    "Independent opinion, satire, and honest reporting from Southport. For Sandgrounders. By Sandgrounders.",
+    "Independent opinion, satire, and public record journalism from Southport. For Sandgrounders. By Sandgrounders.",
   metadataBase: new URL("https://www.thesandgrounder.com"),
   alternates: {
     canonical: "https://www.thesandgrounder.com",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Sandgrounder",
     description:
-      "Independent opinion, satire, and honest reporting from Southport. For Sandgrounders. By Sandgrounders.",
+      "Independent opinion, satire, and public record journalism from Southport. For Sandgrounders. By Sandgrounders.",
     url: "https://www.thesandgrounder.com",
     type: "website",
     siteName: "The Sandgrounder",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "The Sandgrounder",
-    description: "Independent opinion, satire, and honest reporting from Southport.",
+    description: "Independent opinion, satire, and public record journalism from Southport.",
   },
 };
 

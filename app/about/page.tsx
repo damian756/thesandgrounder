@@ -51,7 +51,7 @@ export default function AboutPage() {
             We are not a guide. We are not a promotional platform. We do not carry press releases dressed as news, sponsored content dressed as reviews, or council announcements dressed as journalism.
           </p>
           <p>
-            We have three sections. Opinion covers what the town actually thinks. Satire covers the things best said with a cartoon of a pig. Reporting covers primary sources, public records, and things people in public life would sometimes prefer were not reported at all.
+            We have three sections. Opinion covers what the town actually thinks. Satire covers the things best said with a cartoon of a pig. From the Record covers primary sources, public documents, and things people in public life would sometimes prefer were not documented at all.
           </p>
           <p>
             The name comes from the Sandgrounder, the nickname for people born and bred in Southport. It is a term of belonging, not exclusion. Visitors are welcome. But this is written by people who have skin in the game.

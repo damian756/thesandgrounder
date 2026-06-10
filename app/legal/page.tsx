@@ -61,15 +61,15 @@ export default function LegalPage() {
           </p>
         </Section>
 
-        <Section title="Reporting">
+        <Section title="From the Record">
           <p>
-            Content published under the Reporting category makes factual claims about named individuals and organisations in their public capacity. All factual claims are sourced to primary public records, including Companies House filings, council-published supplier spend data, Freedom of Information disclosures, Land Registry title registers, and publicly filed accounts.
+            Content published under the From the Record section makes factual claims about named individuals and organisations in their public capacity. All factual claims are sourced to primary public records, including Companies House filings, council-published supplier spend data, Freedom of Information disclosures, Land Registry title registers, and publicly filed accounts.
           </p>
           <p>
-            We do not allege personal dishonesty or criminal conduct. We report documented structural conflicts of interest and governance failures as they appear in the public record.
+            We do not allege personal dishonesty or criminal conduct. We document structural conflicts of interest and governance failures as they appear in the public record.
           </p>
           <p>
-            Source documentation for all reporting is maintained at{" "}
+            Source documentation is maintained at{" "}
             <a href="https://www.siba.digital" className="text-[#9b2020] underline underline-offset-2">siba.digital</a>.
           </p>
         </Section>
