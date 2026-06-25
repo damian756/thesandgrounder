@@ -63,9 +63,9 @@ export const articles: Article[] = [
     author: "The Sandgrounder",
     tags: ["stand-up-for-southport", "southport", "bid", "mikhail", "local-press"],
     featured: false,
-    image: "/images/local-news-that-isnt.png",
+    image: "/images/local-news-that-isnt.webp",
     imageAlt:
-      "A pig newsreader sits at a local news desk wearing badges reading BID Contractor, Council Supplier, Mikhail Partner. A stack of Huge Success For Southport scripts sits on the desk. The bin overflows with crumpled BID Accounts, Vacancy Rate and FOI Response papers. The green screen behind shows the real Lord Street with To Let signs.",
+      "An empty local news studio. Three labels on the newsdesk read: BID Contract, Council Payments, Hospitality Group Retainer. The ON AIR sign is lit. The chair is empty.",
   },
   {
     slug: "savills-in-southport",
