@@ -40,6 +40,19 @@ export const categoryMeta: Record<
 
 export const articles: Article[] = [
   {
+    slug: "southport-central-dan-hayes",
+    category: "opinion",
+    title: "On Independent Journalism in Southport",
+    excerpt:
+      "Twenty years of archival work, long-form reporting, and asking questions the local media did not always want asked. Dan Hayes, Editor of Southport Central, on what independent journalism actually requires.",
+    publishedAt: "2026-06-30",
+    author: "Dan Hayes, Southport Central",
+    tags: ["local-journalism", "southport", "independent-media", "southport-fc", "local-history"],
+    featured: true,
+    image: "/images/southport-central-dan-hayes.webp",
+    imageAlt: "Southport Central website homepage showing sports and local news coverage",
+  },
+  {
     slug: "southport-regeneration-glossary",
     category: "satire",
     title: "The Southport Regeneration Glossary",
