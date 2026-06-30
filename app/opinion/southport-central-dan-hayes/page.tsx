@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "On Independent Journalism in Southport | Dan Hayes, Southport Central",
@@ -62,7 +64,10 @@ const articleSchema = {
 
 export default function DanHayesPost() {
   return (
-    <div className="min-h-screen">
+    <>
+      <div className="w-full h-1 bg-[#9b2020]" />
+      <Nav />
+      <div className="min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
@@ -294,6 +299,8 @@ export default function DanHayesPost() {
         </div>
 
       </div>
+      <Footer />
     </div>
+    </>
   );
 }
