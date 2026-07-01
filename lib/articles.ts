@@ -11,6 +11,7 @@ export type Article = {
   featured?: boolean;
   image?: string;
   imageAlt?: string;
+  imagePosition?: string;
 };
 
 export const categoryMeta: Record<
@@ -51,6 +52,7 @@ export const articles: Article[] = [
     featured: true,
     image: "/images/aviary-macaw.webp",
     imageAlt: "Blue and gold macaw perched in the Botanic Gardens Aviary, Churchtown, Southport",
+    imagePosition: "top",
   },
   {
     slug: "southport-central-dan-hayes",

@@ -19,7 +19,8 @@ export default function ArticleCard({ article, variant = "default" }: Props) {
               src={article.image}
               alt={article.imageAlt ?? article.title}
               fill
-              className="object-cover object-center transition-transform duration-300 group-hover:scale-[1.01]"
+              className="object-cover transition-transform duration-300 group-hover:scale-[1.01]"
+              style={{ objectPosition: article.imagePosition ?? "center" }}
               sizes="(max-width: 768px) 100vw, 900px"
             />
           </div>
