@@ -40,6 +40,19 @@ export const categoryMeta: Record<
 
 export const articles: Article[] = [
   {
+    slug: "botanic-gardens-aviary",
+    category: "reporting",
+    title: "The Botanic Gardens Aviary is closing. It will cost £60,000 a year to save it.",
+    excerpt:
+      "Sefton Council decided in March 2026 to close the Botanic Gardens Aviary in Churchtown. Staff were not told for four months. We have filed an FOI request and you can follow it.",
+    publishedAt: "2026-07-01",
+    author: "The Sandgrounder",
+    tags: ["southport", "sefton-council", "churchtown", "aviary", "botanic-gardens", "foi", "community"],
+    featured: true,
+    image: "/images/aviary-macaw.webp",
+    imageAlt: "Blue and gold macaw perched in the Botanic Gardens Aviary, Churchtown, Southport",
+  },
+  {
     slug: "southport-central-dan-hayes",
     category: "opinion",
     title: "On Independent Journalism in Southport",
@@ -48,7 +61,7 @@ export const articles: Article[] = [
     publishedAt: "2026-06-30",
     author: "Dan Hayes, Southport Central",
     tags: ["local-journalism", "southport", "independent-media", "southport-fc", "local-history"],
-    featured: true,
+    featured: false,
     image: "/images/southport-central-dan-hayes.webp",
     imageAlt: "Southport Central website homepage showing sports and local news coverage",
   },
