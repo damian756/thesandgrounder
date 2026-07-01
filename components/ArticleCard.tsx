@@ -14,13 +14,13 @@ export default function ArticleCard({ article, variant = "default" }: Props) {
     return (
       <Link href={articleHref(article)} className="group block bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
         {article.image && (
-          <div className="w-full overflow-hidden">
+          <div className="w-full overflow-hidden relative aspect-[16/9]">
             <Image
               src={article.image}
               alt={article.imageAlt ?? article.title}
-              width={900}
-              height={500}
-              className="w-full object-cover transition-transform duration-300 group-hover:scale-[1.01]"
+              fill
+              className="object-cover object-center transition-transform duration-300 group-hover:scale-[1.01]"
+              sizes="(max-width: 768px) 100vw, 900px"
             />
           </div>
         )}
