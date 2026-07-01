@@ -109,9 +109,9 @@ const galleryImages = [
   },
   {
     src: "/images/aviary-rescue.webp",
-    alt: "Aviary staff and volunteers with a bird carrier in a car",
+    alt: "Aviary staff with a bird carrier in a car",
     caption:
-      "Staff have been working to find new homes for some of the birds. They are not waiting for March 2027.",
+      "The aviary team. Staff say they are not yet at the stage of rehoming animals.",
   },
 ];
 
@@ -339,18 +339,22 @@ export default function AviaryclosurePage() {
             </p>
 
             <p>
-              The aviary staff have begun the process themselves. Some birds are already being found new homes. They are doing this without any public timeline or rehoming plan from the council.
+              The staff have been clear: they are not yet at the stage of rehoming animals. They have been contacted by donors who gave animals to the aviary and are responding to those messages. But no rehoming has begun, and staff are still working to reverse the decision before that becomes necessary.
+            </p>
+
+            <p>
+              Connor Atherton, who has worked at the aviary for three years, posted publicly on 1 July: &ldquo;I&apos;ll keep doing everything I can to help ensure the aviary remains open for everyone to enjoy.&rdquo;
             </p>
 
             <p>
               The Facebook page for the aviary is{" "}
               <a
-                href="https://www.facebook.com/botanicgardensaviariessouthport"
+                href="https://www.facebook.com/botanicaviary"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#1a3a5c] hover:underline font-medium"
               >
-                Botanic Gardens Aviaries Southport
+                facebook.com/botanicaviary
               </a>
               . If you want to follow the campaign or offer support, that is where it is happening.
             </p>
