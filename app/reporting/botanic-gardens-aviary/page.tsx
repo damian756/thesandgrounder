@@ -216,12 +216,14 @@ export default function AviaryclosurePage() {
               </p>
               {[
                 ["Location", "Botanic Gardens, Bankfield Lane, Churchtown, Southport"],
-                ["Decision made", "March 2026"],
-                ["Staff notified", "1 July 2026 (four months later)"],
+                ["Decision made", "Full Council, 26 February 2026"],
+                ["Staff notified", "1 July 2026 (five months later)"],
                 ["Planned closure", "March 2027"],
-                ["Annual saving", "£60,000"],
-                ["Council budget gap", "£91.757 million"],
-                ["Aviary as % of gap", "0.065%"],
+                ["Annual operating cost", "£80,750 (2026/27 estimate)"],
+                ["Stated budget saving", "£60,000 (gap unexplained)"],
+                ["Equality impact assessment", "None conducted"],
+                ["Alternatives considered", "None"],
+                ["Community approached", "No"],
               ].map(([label, value]) => (
                 <div key={label} className="flex gap-3">
                   <span
@@ -248,7 +250,7 @@ export default function AviaryclosurePage() {
             </h2>
 
             <p>
-              The council&apos;s total funding gap is £91.757 million over the medium-term financial plan. Closing the aviary saves £60,000 a year. That is 0.065% of the gap.
+              The council&apos;s total funding gap is £91.757 million over the medium-term financial plan. The aviary costs £80,750 a year to run. The council stated the saving as £60,000. Either way, it is less than 0.1% of the funding gap.
             </p>
 
             <p>
@@ -267,19 +269,15 @@ export default function AviaryclosurePage() {
               className="text-[24px] text-[#1c1c1c] leading-tight mt-10 mb-4"
               style={{ fontFamily: "var(--font-playfair), Georgia, serif", fontWeight: 700 }}
             >
-              Four months
+              Five months
             </h2>
 
             <p>
-              The budget decision was made in March 2026. The aviary team found out on 1 July 2026: four months after the decision had already been taken.
+              The FOI response confirms the decision was made at the Full Council meeting of 26 February 2026 — not by an officer, not by a Cabinet member, but by a vote of the elected council as part of the annual budget. Staff were told on 1 July 2026. That is five months, not the four initially reported.
             </p>
 
             <p>
-              Staff members Connor Atherton, Emily, Lucy, and Luke were informed on 1 July. They are publicly opposed to the closure. They have already begun finding homes for some of the birds, not because they are required to, but because they care about them.
-            </p>
-
-            <p>
-              The council has not published an officer decision notice, an equality impact assessment, or a community consultation record. Whether any of those exist is one of the questions our FOI request asks.
+              Staff members Connor Atherton, Emily, Lucy, and Luke were informed on 1 July. They are publicly opposed to the closure and are working to reverse it.
             </p>
           </div>
 
@@ -363,26 +361,65 @@ export default function AviaryclosurePage() {
               className="text-[24px] text-[#1c1c1c] leading-tight mt-10 mb-4"
               style={{ fontFamily: "var(--font-playfair), Georgia, serif", fontWeight: 700 }}
             >
-              What we have asked
+              What the FOI found
             </h2>
 
             <p>
-              We filed a Freedom of Information request to Sefton Council on 1 July 2026. The statutory response deadline is 29 July 2026.
+              We filed a Freedom of Information request on 1 July 2026. The response arrived on 30 July. Here is what it confirms.
             </p>
 
-            <p>We asked for three things:</p>
+            <h3
+              className="text-[18px] font-semibold text-[#1c1c1c] mt-6 mb-2"
+              style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+            >
+              No equality impact assessment
+            </h3>
 
-            <ol className="list-decimal pl-6 space-y-2 text-[15px]">
-              <li>
-                <strong>The formal decision.</strong> The officer notice, approval date, approving officer or Cabinet member, and any equality impact assessment conducted before the decision to close.
-              </li>
-              <li>
-                <strong>The financial case.</strong> The annual operating cost breakdown for the aviary in the most recent financial year, the projected saving, and the timing of that saving.
-              </li>
-              <li>
-                <strong>Alternatives considered.</strong> Whether any community transfer, charitable lease, third-party operation, or approach to the Botanic Gardens Community Association was explored before the decision to close was taken.
-              </li>
-            </ol>
+            <p>
+              We asked whether an equality impact assessment or equalities screening was conducted before the decision. The council&apos;s answer: <strong>&ldquo;No such assessment or screening was undertaken.&rdquo;</strong>
+            </p>
+
+            <p>
+              The Public Sector Equality Duty requires public authorities to have due regard to equality impacts before making decisions. The Botanic Gardens Aviary is a free facility used by families, elderly residents, children, and people with disabilities, located in a park that sits on a school walking route. It was closed without anyone asking who would be affected. That is not just an oversight. It may be a ground for legal challenge.
+            </p>
+
+            <h3
+              className="text-[18px] font-semibold text-[#1c1c1c] mt-6 mb-2"
+              style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+            >
+              The actual cost: £80,750 a year
+            </h3>
+
+            <p>
+              The council&apos;s own budget document stated the saving from closure as £60,000 a year. The FOI response discloses the actual operating costs. In 2025/26, the aviary cost £71,607 to run. The estimate for 2026/27 is £80,750.
+            </p>
+
+            <p>
+              Staff salaries account for most of that: £54,480 in 2025/26 and an estimated £60,000 in 2026/27. The salary bill has nearly doubled since 2023/24, as the aviary grew and the team expanded. The council then voted to close it to save £60,000 — a figure that does not account for the full operating cost.
+            </p>
+
+            <p>
+              The gap between the stated saving (£60,000) and the actual cost (£80,750) has not been explained. The most likely reason is that some staff costs will be redistributed rather than eliminated. But that was not said in the budget document and has not been publicly confirmed.
+            </p>
+
+            <h3
+              className="text-[18px] font-semibold text-[#1c1c1c] mt-6 mb-2"
+              style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+            >
+              No alternatives considered. No community approach made.
+            </h3>
+
+            <p>
+              We asked whether community transfer, charitable lease, or third-party operation was considered before the closure decision was taken. The council&apos;s answer: <strong>&ldquo;None of the above were considered before the closure decision was taken.&rdquo;</strong>
+            </p>
+
+            <p>
+              We asked whether any approach was made to the Botanic Gardens Community Association or any other organisation. The answer: <strong>&ldquo;No such approach was made.&rdquo;</strong>
+            </p>
+
+            <p>
+              The council voted in February 2026 to close a community facility that costs £80,000 a year to run, without asking whether anyone else wanted to run it, without considering whether a community group could take it on, and without conducting any equalities check. The decision was made and it was only when staff were told five months later that anyone outside the council found out it had happened.
+            </p>
 
             {/* FOI call-to-action */}
             <div className="my-8 bg-[#0d1f30] rounded-xl p-6 sm:p-8">
