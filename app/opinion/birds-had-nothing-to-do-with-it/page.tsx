@@ -264,7 +264,7 @@ export default function BirdsOpinionPage() {
 
         <div className="mt-10 pt-6 border-t border-[#e8dfd8]">
           <ShareButtons
-            url="https://www.thesandgrounder.com/opinion/birds-had-nothing-to-do-with-it"
+            path="/opinion/birds-had-nothing-to-do-with-it"
             title="The birds had nothing to do with it"
           />
         </div>
