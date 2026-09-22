@@ -41,6 +41,20 @@ export const categoryMeta: Record<
 
 export const articles: Article[] = [
   {
+    slug: "birds-had-nothing-to-do-with-it",
+    category: "opinion",
+    title: "The birds had nothing to do with it",
+    excerpt:
+      "The aviary is closing because of animal welfare concerns. PETA were rung a fortnight before the announcement. The decision was made in February. There is a transformation plan. The site was always the point.",
+    publishedAt: "2026-09-22",
+    author: "The Sandgrounder",
+    tags: ["southport", "sefton-council", "churchtown", "aviary", "botanic-gardens", "town-deal"],
+    featured: true,
+    image: "/images/sandgrounder-aviary-birds.webp",
+    imageAlt: "A blue and gold macaw perched on a Sefton Council Site for Development sign in a grey northern park",
+    imagePosition: "center",
+  },
+  {
     slug: "botanic-gardens-aviary",
     category: "reporting",
     title: "The Botanic Gardens Aviary is closing. It will cost £60,000 a year to save it.",
