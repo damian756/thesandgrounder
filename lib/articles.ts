@@ -41,6 +41,21 @@ export const categoryMeta: Record<
 
 export const articles: Article[] = [
   {
+    slug: "sefton-council-marked-its-own-homework",
+    category: "opinion",
+    title: "Sefton Council marked its own homework. It got a B minus and a pat on the head.",
+    excerpt:
+      "SIBA read the whole council so you don't have to. Twenty-one sections. £648.8 million. Five waiver reports with zero numbers in any of them.",
+    publishedAt: "2026-09-23",
+    author: "The Sandgrounder",
+    tags: ["southport", "sefton-council", "governance", "siba", "waivers", "audit"],
+    featured: true,
+    image: "/images/sefton-scrutiny-waiver-magic.png",
+    imageAlt:
+      "A pig magician in a top hat gestures to a curtained cabinet labelled Waivers: Closed Appendix, Schedule 12A, while committee pigs applaud, one asleep under a newspaper. Signs read Fit For Purpose and 4 Significant Weaknesses side by side.",
+    imagePosition: "center",
+  },
+  {
     slug: "birds-had-nothing-to-do-with-it",
     category: "opinion",
     title: "The birds had nothing to do with it",
