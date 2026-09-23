@@ -70,6 +70,15 @@ export default function SeftonHomeworkOpinionPage() {
             in any of them. Here&rsquo;s the bit that made us laugh, and the
             bit that didn&rsquo;t.
           </p>
+          <a
+            href="https://www.siba.digital/files/sefton-council-scrutiny-23-september-2026.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-bold uppercase tracking-widest text-[#9b2020] hover:underline"
+            style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}
+          >
+            &#8595; Download the full SIBA report (PDF)
+          </a>
         </div>
 
         {/* Hero image */}
@@ -185,6 +194,15 @@ export default function SeftonHomeworkOpinionPage() {
           </p>
 
           <div className="border-t border-[#e8dfd8] pt-5 mt-6">
+            <a
+              href="https://www.siba.digital/files/sefton-council-scrutiny-23-september-2026.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-[13px] font-bold uppercase tracking-widest text-[#9b2020] hover:underline mb-3"
+              style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}
+            >
+              &#8595; Download the full SIBA report (PDF)
+            </a>
             <p className="text-sm text-[#7a7069]">
               The full scrutiny report is published at{" "}
               <a
