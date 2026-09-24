@@ -41,6 +41,20 @@ export const categoryMeta: Record<
 
 export const articles: Article[] = [
   {
+    slug: "the-council-is-negotiating-with-an-estate-it-has-not-named",
+    category: "opinion",
+    title: "The council is negotiating with an estate it has not named",
+    excerpt:
+      "Sefton is ready to pay the Scarisbrick Estate out of the events centre budget. The land register of the site does not name a living Scarisbrick.",
+    publishedAt: "2026-09-24",
+    author: "The Sandgrounder",
+    tags: ["southport", "sefton-council", "mlec", "covenant", "siba"],
+    featured: true,
+    image: "/images/sandgrounder-unnamed-estate.png",
+    imageAlt: "A pig solicitor waits on the telephone. The chair opposite is empty, and the nameplate is blank.",
+    imagePosition: "center",
+  },
+  {
     slug: "sefton-council-marked-its-own-homework",
     category: "opinion",
     title: "Sefton Council marked its own homework. It got a B minus and a pat on the head.",

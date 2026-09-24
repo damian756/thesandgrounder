@@ -3,7 +3,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import SignupForm from "@/components/SignupForm";
-import { getFeaturedArticle, getLatestArticles } from "@/lib/articles";
+import { getLatestArticles } from "@/lib/articles";
 
 export const metadata: Metadata = {
   title: "The Sandgrounder | Independent Opinion from Southport",
@@ -22,8 +22,9 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const featured = getFeaturedArticle();
-  const latest = getLatestArticles(50).filter((a) => !a.featured).slice(0, 6);
+  const ordered = getLatestArticles(7);
+  const featured = ordered[0];
+  const latest = ordered.slice(1);
 
   return (
     <>
