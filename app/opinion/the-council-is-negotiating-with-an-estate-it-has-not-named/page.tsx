@@ -49,7 +49,7 @@ export default function UnnamedEstatePage() {
             The council is negotiating with an estate it has not named
           </h1>
           <p className="text-[17px] text-[#4a4040] leading-relaxed" style={{ fontFamily: "var(--font-playfair), Georgia, serif", fontStyle: "italic" }}>
-            Sefton is going to build on land it already owns. It is also ready to pay someone for permission. The register does not say who.
+            Sefton is going to build on land it already owns. A section of an Act lets it do that without consent. The estate has since asked to be paid. The register does not say who.
           </p>
         </div>
 
@@ -67,16 +67,16 @@ export default function UnnamedEstatePage() {
 
         <article className="space-y-5 text-[16px] text-[#3d3030] leading-[1.75]" style={{ fontFamily: "var(--font-lato), Arial, sans-serif" }}>
           <p>
-            Sefton is going to build the Marine Lake Events Centre on land it already owns. Before it does, it has to deal with a promise the old Southport Corporation made on 29 September 1885. The land stays for sanitation or recreation. No building without written consent.
+            Sefton is going to build the Marine Lake Events Centre on land it already owns. Before it does, it has to deal with a promise the old Southport Corporation made on 29 September 1885. The land stays for sanitary or recreation use. No other building without written consent. A building that is itself for those uses does not need it.
           </p>
           <p>
-            Cabinet was told, on 2 October 2025, that the consent belongs to &ldquo;the Scarisbrick Estate&rdquo;, that the estate has a trustee, and that DLA Piper has tried several times to get that trustee on the phone. No answer. The recommendation was to build anyway, and to pay compensation out of the events centre budget. No figure. No name.
+            Cabinet was told, on 2 October 2025, that the consent belongs to &ldquo;the Scarisbrick Estate&rdquo;, that the estate has a trustee, and that DLA Piper had tried several times to get that trustee on the phone. At that date there was no answer. The recommendation was to use section 203 of the Housing and Planning Act 2016, which lets the council build even if the promise is broken, and to pay the compensation that section 204 then requires. That money comes out of the events centre budget. No figure was published. No name was published.
           </p>
           <p>
             The land register for the site was read this week. The 1885 promise is there. The people it was made to were Philip Henry Chambres and Christopher Lethbridge. Not a Scarisbrick. The register does record a Scarisbrick. Charles Anthony Scarisbrick, in 2002, as one of the trustees who released the promise over a different piece of land, the Ocean Plaza site. He signed it away. He is not written down as the man who can still say no.
           </p>
           <p>
-            So the public document asks the Executive Director to negotiate with an estate. The public register of the land he would be negotiating about does not say who that estate is now. The solicitors have had no reply. The compensation, whatever it turns out to be, comes out of the same budget as the venue.
+            So the public document asks the Executive Director to negotiate with an estate. The public register of the land he would be negotiating about does not say who that estate is now. Since the Cabinet report, the estate has been in touch, and it has demanded compensation. Whatever is paid still comes out of the same budget as the venue.
           </p>
           <p className="font-semibold text-[#1c1c1c]">
             Nobody has published a sum. Nobody has published a name. The building is going up regardless. We will wait.
