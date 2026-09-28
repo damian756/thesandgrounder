@@ -8,7 +8,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.thesandgrounder.com",
   },
-  robots: { index: true, follow: false },
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: { index: false, follow: false, noimageindex: true },
+  },
   openGraph: {
     title: "The Sandgrounder has closed",
     description: "This site has closed.",
