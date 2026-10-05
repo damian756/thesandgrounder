@@ -1,38 +1,11 @@
 import { MetadataRoute } from "next";
 
-/** Every public URL this site served before it closed. `/` covers anything else. */
-const FORMER_PATHS = [
-  "/",
-  "/about",
-  "/contact",
-  "/privacy",
-  "/legal",
-  "/archive",
-  "/opinion",
-  "/satire",
-  "/reporting",
-  "/opinion/the-council-is-negotiating-with-an-estate-it-has-not-named",
-  "/opinion/sefton-council-marked-its-own-homework",
-  "/opinion/birds-had-nothing-to-do-with-it",
-  "/opinion/southport-central-dan-hayes",
-  "/opinion/mlec-year-one",
-  "/opinion/this-town-deserves-better",
-  "/reporting/botanic-gardens-aviary",
-  "/reporting/the-local-news-that-isnt",
-  "/reporting/savills-in-southport",
-  "/satire/southport-regeneration-glossary",
-  "/satire/shol-business-tips",
-  "/satire/mlec-what-we-expect",
-  "/api/contact",
-  "/api/newsletter",
-  "/images",
-];
-
+// The site closed on 28 Sep 2026. Crawling stays open so search engines can
+// fetch the former URLs and see the 410 Gone and X-Robots-Tag: noindex that
+// proxy.ts returns. A disallow here would hide both. The closing page at `/`
+// carries noindex in its meta tag and header.
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: {
-      userAgent: "*",
-      disallow: FORMER_PATHS,
-    },
+    rules: { userAgent: "*", allow: "/" },
   };
 }
